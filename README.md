@@ -22,7 +22,7 @@ This task expands on the foundational work from Task 1 and introduces key concep
 * How complexity impacts model performance
 * Introduction to the **bias–variance trade-off** and why it matters in supervised learning
 
-### **5. Preparatory Steps for ML Modeling**
+### **4. Preparatory Steps for ML Modeling**
 
 * Structuring data for supervised learning tasks
 * Extracting feature sets and target variables
