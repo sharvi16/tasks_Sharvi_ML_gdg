@@ -11,22 +11,16 @@ This task expands on the foundational work from Task 1 and introduces key concep
 * Identifying Age prediction from the crab dataset as a regression problem
 * Importance of separating features (X) and labels (y) before model development
   
----
-
 ### **2. Classification**
 
 * Introduction to classification as a method for predicting **categorical labels**
 * Use of an additional dataset to illustrate classification workflows
   
----
-
 ### **3. Model Behavior & Generalization**
 
 * Explanation of **overfitting** and **underfitting**
 * How complexity impacts model performance
 * Introduction to the **bias–variance trade-off** and why it matters in supervised learning
-
----
 
 ### **5. Preparatory Steps for ML Modeling**
 
@@ -34,6 +28,4 @@ This task expands on the foundational work from Task 1 and introduces key concep
 * Extracting feature sets and target variables
 * Understanding the role of preprocessing and visualization before model training
 * Introduction to model interpretability libraries (e.g., SHAP) for future stages
-
----
 
