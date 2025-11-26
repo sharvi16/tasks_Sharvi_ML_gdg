@@ -1,4 +1,3 @@
-# tasks_Sharvi_ML_gdg
 # **GDG Task 2 — Regression and Classification in Supervised Machine Learning**
 
 Welcome to the GDG Task 2 repository!
