@@ -1,31 +1,47 @@
-# **GDG Task 2 — Regression and Classification in Supervised Machine Learning**
+# **GDG Task 3 — Unsupervised Learning & Advanced Supervised Learning**
 
-Welcome to the GDG Task 2 repository!
-This task expands on the foundational work from Task 1 and introduces key concepts in **Supervised Machine Learning**, focusing specifically on **Regression** and **Classification** techniques. Two datasets are utilized in this notebook: the **Crab Dataset** and an additional dataset used for classification examples.
+Welcome to the GDG Task 3 repository!
+This task is a comprehensive guide bridging **Unsupervised Learning** and advanced **Supervised Learning** techniques. It covers clustering algorithms using the Samsung Human Activity Recognition dataset and dives deep into classification, ensemble methods, and optimization using the Titanic dataset.
 
-## ** Key Topics Covered**
+## **Key Topics Covered**
 
-### **1. Regression**
+### **1. Unsupervised Learning (Clustering)**
 
-* Understanding regression as a method for predicting **continuous numerical values**
-* Identifying Age prediction from the crab dataset as a regression problem
-* Importance of separating features (X) and labels (y) before model development
-  
-### **2. Classification**
+*   **Dataset**: Samsung Human Activity Recognition (Sensor data).
+*   **Algorithms**:
+    *   **K-Means Clustering**: Grouping data based on centroids; using the **Elbow Method** for optimal $k$.
+    *   **Agglomerative Clustering**: Hierarchical approach building clusters bottom-up; visualized with dendrograms.
+    *   **Spectral & Divisive Clustering**: Theoretical exploration of graph-based and top-down clustering methods.
+*   **Visualization & Metrics**:
+    *   **PCA (Principal Component Analysis)**: Reducing dimensions for 2D/3D visualization.
+    *   **Adjusted Rand Index (ARI)**: Evaluating clustering quality against ground truth.
 
-* Introduction to classification as a method for predicting **categorical labels**
-* Use of an additional dataset to illustrate classification workflows
-  
-### **3. Model Behavior & Generalization**
+### **2. Supervised Learning Expansion**
 
-* Explanation of **overfitting** and **underfitting**
-* How complexity impacts model performance
-* Introduction to the **bias–variance trade-off** and why it matters in supervised learning
+*   **Dataset**: Titanic Survival Prediction.
+*   **Data Preprocessing**:
+    *   Feature Extraction (e.g., Titles from names, Family size calculation).
+    *   Handling Nulls and Encoding categorical variables.
+*   **Decision Tree Classifier**:
+    *   Building and Visualizing Decision Trees.
+    *   Understanding **Overfitting vs. Underfitting** by tuning tree depth.
+*   **Naive Bayes**:
+    *   Implementing Gaussian Naive Bayes and comparing it with Decision Trees.
 
-### **4. Preparatory Steps for ML Modeling**
+### **3. Ensemble Techniques**
 
-* Structuring data for supervised learning tasks
-* Extracting feature sets and target variables
-* Understanding the role of preprocessing and visualization before model training
-* Introduction to model interpretability libraries (e.g., SHAP) for future stages
+*   **Bagging (Bootstrap Aggregating)**:
+    *   **Random Forest**: Reducing variance by averaging multiple decision trees.
+    *   **BaggingClassifier**: General bagging implementation.
+*   **Boosting**:
+    *   **AdaBoost**: Reducing bias by sequentially correcting errors of weak learners.
+*   **Optimization with GridSearchCV**:
+    *   Automating hyperparameter tuning to find the best model configuration.
 
+### **4. Model Optimization & Pruning**
+
+*   **Tree Pruning**:
+    *   Implementing **Cost Complexity Pruning** (`ccp_alpha`) to simplify trees and improve generalization.
+    *   Visualizing the trade-off between tree complexity and accuracy.
+*   **Comparative Analysis**:
+    *   Benchmarking Decision Trees, Naive Bayes, Random Forest, Bagging, and Boosting to determine the optimal model.
